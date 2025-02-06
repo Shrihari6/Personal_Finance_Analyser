@@ -24,7 +24,7 @@
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Personal_Finance_Analyser.git
+   git clone https://github.com/Shrihari6/Personal_Finance_Analyser.git
    cd Personal_Finance_Analyser
    ```
 
@@ -42,7 +42,7 @@
 
 ### Usage
 1. Set up a backend system (e.g., Node.js, Python, etc.) to interact with the MySQL database.
-2. Log and categorize income, expenses, savings, and budgets.
+2. Log and categorize income, expenses, savings, debts and investments.
 3. Calculate and analyze your **financial health score** based on entered data.
 
 ## License
