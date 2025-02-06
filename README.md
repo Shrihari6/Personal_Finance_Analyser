@@ -1,4 +1,3 @@
-Thank you for the clarification! Based on your input, I understand there is no frontend like PHP or Python and the project solely uses MySQL for backend and the `.sql` file for database setup. Here’s the revised README:
 
 ---
 
