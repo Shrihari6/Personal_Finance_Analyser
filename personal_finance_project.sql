@@ -1,13 +1,13 @@
 
 
-CREATE DATABASE Personal_Finance_Health;
-USE Personal_Finance_Health;
+CREATE DATABASE PersonalFinanceHealth;
+USE PersonalFinanceHealth;
 
-use personal_finance_health;
+
 
 CREATE TABLE Users (
     User_ID INT PRIMARY KEY AUTO_INCREMENT,
-    Username VARCHAR(50) NOT NULL UNIQUE,
+    User_name VARCHAR(50) NOT NULL UNIQUE,
     Role ENUM('Admin', 'User') NOT NULL,
     Password VARCHAR(255) NOT NULL
 );
@@ -186,6 +186,12 @@ select users.User_name, savings.account_type, (savings.amount ) (select sum(amou
 from savings where user_id = savings.user_id) * 100 as SAVINGS_GROWTH_RATE from savings 
 inner join users on savings.user_id = users.user_id;
 
+Create user ‘admin’@’localhost’ identified by ‘admin123’;
+Show grants for ‘admin’@’localhost’;
+Grant all privileges on personalfinancehealth .* to ‘admin’@’localhost’ with grant option;
+Select users, host from mysql user;
+create user 'user'@'localhost' identified by'user123';
+grant select on personalfinancehealth.* to 'user'@'localhost';
 
 
 
