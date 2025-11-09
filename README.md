@@ -15,6 +15,11 @@ well-being.
 - **Reports and Analytics**: View financial health reports and track progress.
 - **Database-Driven**: Utilizes MySQL for data storage and management.
 
+##Relational Database Schema
+
+<img width="1515" height="793" alt="Screenshot 2025-02-25 110422" src="https://github.com/user-attachments/assets/52421e82-ddbf-4676-af03-e02579517097" />
+
+
 ## Tech Stack
 - **MySQL**: Database for secure data storage and management.
 - **SQL**: `.sql` file containing all database commands for setting up the schema and structure.
