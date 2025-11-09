@@ -3,7 +3,10 @@
 
 # Personal Finance Analyser
 
-**Personal Finance Analyser** helps users assess their financial health by tracking income, expenses, savings, and budgets. The project calculates a **financial health score** based on user data to provide insights on improving their financial well-being.
+**Personal Finance Analyser** helps users assess their financial health by tracking income, expenses, savings, and budgets. The project calculates a **financial health score** based on user data to provide insights on improving their financial 
+well-being.
+
+<img width="1355" height="785" alt="Screenshot 2025-11-09 182846" src="https://github.com/user-attachments/assets/cd0855a5-ee98-4ec6-92e2-604a5ec38cee" />
 
 ## Features
 - **Income and Expense Tracking**: Record and categorize income and expenses.
